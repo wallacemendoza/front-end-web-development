@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Us!</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="SLC.html">Salt Lake City</a></li>
+            <li><a href="Bluff.html">Bluff</a></li>
+            <li><a href="Torrey.html">Torrey</a></li>
+            <li><a href="Contact.html">Contact Us</a></li>
+            <li><a href="references.html">References</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="content">
+            <!-- Section -->
+            <section>
+                <img src="Immages/ContactUs.png" alt="Contact">
+                <h2>Please enter your info to contact us</h2>
+                <form id="contact-form" action="#" method="post">
+                    <label for="first-name">First Name:</label>
+                    <input type="text" id="first-name" name="first-name" required><br><br>
+                    
+                    <label for="last-name">Last Name:</label>
+                    <input type="text" id="last-name" name="last-name" required><br><br>
+                    
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+                    
+                    <label for="confirm-email">Confirm Email Address:</label>
+                    <input type="email" id="confirm-email" name="confirm-email" required><br><br>
+                    
+                    <label for="question">Your Question:</label><br>
+                    <textarea id="question" name="question" rows="5" cols="40"></textarea><br><br>
+                    
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+
+            <!-- Aside -->
+            <aside>
+                <h2>Reach out!</h2>
+                <ul>
+                    <li>If you have a specific question, feel free to call us or reach out here on Facebook!</li>
+                    <li><a href="https://www.facebook.com" target="Facebook">Visit Facebook</a></li> 
+                </ul>
+            </aside>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; D277 final project submission</p>
+    </footer>
+
+    <script>
+        // JavaScript for validating email fields
+        document.getElementById("contact-form").addEventListener("submit", function(event) {
+            const email = document.getElementById("email").value;
+            const confirmEmail = document.getElementById("confirm-email").value;
+
+            if (email !== confirmEmail) {
+                alert("The email addresses do not match. Please try again so that you can contact us! We really, really want to hear from you, friend.");
+                event.preventDefault(); // Prevents the form from submitting
+            }
+        });
+    </script>
+</body>
+</html>
