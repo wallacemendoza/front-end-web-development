@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bluff</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bluff</h1>
+
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="SLC.html">Salt Lake City</a></li>
+            <li><a href="Bluff.html">Bluff</a></li>
+            <li><a href="Torrey.html">Torrey</a></li>
+            <li><a href="Contact.html">Contact Us</a></li>
+            <li><a href="references.html">References</a></li>
+
+        </ul>
+    </nav>
+<main>
+    <div class="content">
+        <!-- Aside -->
+        <aside>
+            <h2>Did you know?</h2>
+            <ul>
+                <li>Did you know? Bluff has a poverty rate of 0%</li>
+                <li>Did you know? The town is named after the sandstone bluffs that surround it</li>
+            </ul>
+        </aside>
+
+
+        <!-- Section -->
+        <div class="section-container"></div>
+        <section>
+            <img src="Immages/Bluff.jpg" alt="Example Image">
+
+            <h2>Bluff, Utah</h2>
+            <p>Located in red rock country in the southeastern part of Utah is Bluff. This small rural city of only 245 people was originally founded in 1880</p>
+            <p>The average annual income in Bluff is $51,607, which is higher than the states $49,019 average.</p>
+        </section>
+    </div> 
+    </div>
+</main>
+    <footer>
+        <p>&copy; D277 final project submission</p>
+    </footer>
+</body>
+</html>
