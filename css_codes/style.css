@@ -1,10 +1,10 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 header {
     background-color: rgba(255,255,255,0.3);
-    padding: 10px;
+    padding: 1px;
 }
 
 nav ul {
@@ -24,6 +24,14 @@ nav a {
 
 nav a:hover {
     color: red;
+}
+
+.fun-facts {
+    background-color: rgba(255,255,255,0.3); /* Set the background color (light gray in this case) */
+    padding: 20px; 
+    border: 1px solid #ccc; /* Add a border for visual separation */
+    border-radius: 5px; /* Optional: Add rounded corners */
+    margin-left: 20px; /* Add margin to create space from the main content */
 }
 
 /*start table*/
