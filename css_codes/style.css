@@ -108,11 +108,16 @@ padding: 50px;
 float: center; 
 }
 
+h2 {
+    text-align: center;
+  }
+
 .fun-facts {
     background-color: rgba(255,255,255,0.3); 
     padding: 20px;
-    float: right; 
 }
+
+
 
 /*start table*/
 h1{
@@ -121,7 +126,7 @@ h1{
     text-transform: uppercase;
     font-weight: 300;
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
   }
   table{
     width:100%;
