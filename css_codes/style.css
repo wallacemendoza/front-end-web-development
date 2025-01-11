@@ -86,6 +86,22 @@ nav a:hover {
 }
 /*end Dropdown*/
 
+
+section > span.seperate{
+    border-bottom: 1px solid var(--seperator);
+    width: 100px;
+    display: block;
+    margin: 10px auto;
+}
+.p-seperate{
+    border-bottom: 1px solid var(--seperator);
+    width: auto;
+    max-width: 70%;
+    display: block;
+    margin: 10px auto; 
+}
+
+
 .visit_our_state {
 background-color: rgba(255,255,255,0.3); 
 padding: 20px;
