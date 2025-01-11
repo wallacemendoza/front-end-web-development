@@ -69,7 +69,7 @@ nav a:hover {
     position: absolute;
     background-color: #67e8b8; /* Example: Light gray */
     min-width: 160px;
-    box-shadow: 0px 8px 15px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 15px 0px rgba(0,0,0,0.3);
     z-index: 1;
     border-radius: 10px; /* Adjust as needed */
 }
@@ -87,13 +87,13 @@ nav a:hover {
 /*end Dropdown*/
 
 
-section > span.seperate{
+section > span.divide{
     border-bottom: 1px solid var(--seperator);
     width: 100px;
     display: block;
     margin: 10px auto;
 }
-.p-seperate{
+.p-divide{
     border-bottom: 1px solid var(--seperator);
     width: auto;
     max-width: 70%;
@@ -104,8 +104,8 @@ section > span.seperate{
 
 .visit_our_state {
 background-color: rgba(255,255,255,0.3); 
-padding: 20px;
-float: left; 
+padding: 50px;
+float: center; 
 }
 
 .fun-facts {
@@ -172,3 +172,8 @@ h1{
       -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
   }
 /*end table*/
+
+footer {
+    background-color: rgba(255,255,255,0.3);
+    padding: 1px;
+}
