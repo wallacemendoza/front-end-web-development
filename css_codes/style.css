@@ -113,14 +113,14 @@ section > span.divide{
 
 section { 
     flex: 1; /* Allow sections to take up equal space */
-    background-color: rgba(240, 240, 240, 0.7); /* Add a light background to the section */
+    background-color: rgba(240, 240, 240, 0.3); /* Add a light background to the section */
     padding: 20px; 
     border-radius: 5px; 
 }
 
 aside { 
     flex: 1; 
-    background-color: rgba(240, 240, 240, 0.7); 
+    background-color: rgba(240, 240, 240, 0.3); 
     padding: 20px;
     border-radius: 5px; 
 }
@@ -179,9 +179,6 @@ h1{
     background: -webkit-linear-gradient(left, #25c481, #25b7c4);
     background: linear-gradient(to right, #25c481, #25b7c4);
     font-family: 'Roboto', sans-serif;
-  }
-  section{
-    margin: 50px;
   }
   
   ::-webkit-scrollbar {
