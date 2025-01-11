@@ -88,15 +88,13 @@ nav a:hover {
 
 .visit_our_state {
 background-color: rgba(255,255,255,0.3); 
-padding: 20px; 
-margin-left: 20px;
-float: right; 
+padding: 20px;
+float: left; 
 }
 
 .fun-facts {
     background-color: rgba(255,255,255,0.3); 
-    padding: 20px; 
-    margin-left: 20px;
+    padding: 20px;
     float: right; 
 }
 
