@@ -103,9 +103,26 @@ section > span.divide{
 
 
 .visit_our_state {
-background-color: rgba(255,255,255,0.3); 
-padding: 50px;
-float: center; 
+    display: flex; /* Use flexbox for easier layout */
+    justify-content: space-between; /* Space sections evenly */
+    align-items: flex-start; /* Align both sections from the top */
+    background-color: rgba(255, 255, 255, 0.3); 
+    padding: 50px;
+    margin-top: 20px; /* Add some top margin for spacing */
+}
+
+section { 
+    flex: 1; /* Allow sections to take up equal space */
+    background-color: rgba(240, 240, 240, 0.7); /* Add a light background to the section */
+    padding: 20px; 
+    border-radius: 5px; 
+}
+
+aside { 
+    flex: 1; 
+    background-color: rgba(240, 240, 240, 0.7); 
+    padding: 20px;
+    border-radius: 5px; 
 }
 
 h2 {
@@ -114,7 +131,7 @@ h2 {
 
 .fun-facts {
     background-color: rgba(255,255,255,0.3); 
-    padding: 20px;
+    padding: 10px;
 }
 
 
