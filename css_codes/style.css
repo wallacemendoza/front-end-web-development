@@ -139,10 +139,17 @@ h1{
     background: linear-gradient(to right, #25c481, #25b7c4);
     font-family: 'Roboto', sans-serif;
   }
-  section{
-    margin: 50px;
+  section {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin: 50px; 
   }
-  
+
+  section img { 
+    margin-right: 20px; 
+  }
+
   ::-webkit-scrollbar {
       width: 6px;
   } 
