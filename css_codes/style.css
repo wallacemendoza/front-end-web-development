@@ -25,6 +25,23 @@ nav a {
 nav a:hover {
     color: rgb(250, 250, 250);
 }
+/*starts head image*/
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-bottom: 20px; 
+}
+
+.image-container img {
+    width: 50px; /* Adjust size as needed */
+    height: 50px; /* Adjust size as needed */
+}
+
+.centered-title {
+    text-align: center;
+}
+/*end head image*/
 
 /* Start Dropdown*/
 .dropdown {
