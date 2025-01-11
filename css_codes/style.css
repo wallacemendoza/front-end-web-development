@@ -86,11 +86,16 @@ nav a:hover {
 }
 /*end Dropdown*/
 
+.visit_our_state {
+background-color: rgba(255,255,255,0.3); 
+padding: 20px; 
+margin-left: 20px;
+float: right; 
+}
+
 .fun-facts {
     background-color: rgba(255,255,255,0.3); 
     padding: 20px; 
-    border: 1px solid #ccc; 
-    border-radius: 5px; 
     margin-left: 20px;
     float: right; 
 }
@@ -139,17 +144,10 @@ h1{
     background: linear-gradient(to right, #25c481, #25b7c4);
     font-family: 'Roboto', sans-serif;
   }
-  section {
-    display: flex; 
-    justify-content: space-between; 
-    align-items: center; 
-    margin: 50px; 
+  section{
+    margin: 50px;
   }
-
-  section img { 
-    margin-right: 20px; 
-  }
-
+  
   ::-webkit-scrollbar {
       width: 6px;
   } 
