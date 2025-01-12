@@ -29,6 +29,11 @@ nav a {
 nav a:hover {
     color: rgb(250, 250, 250);
 }
+
+.dropdown:hover .dropbtn {
+    color: white; 
+}
+
 /*starts head image*/
 .image-container {
     display: flex;
@@ -88,6 +93,11 @@ nav a:hover {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+.dropdown:hover .dropbtn {
+    display: block;
+}
+
 /*end Dropdown*/
 
 
@@ -99,6 +109,8 @@ nav a:hover {
     justify-content:left; /* Space sections evenly */
     align-items: flex-start; /* Align both sections from the top */
     background-color: rgba(255, 255, 255, 0.2); 
+    color: #fff;
+    font-weight: 100;
     padding: 50px;
     margin-top: 5px; /* Add some top margin for spacing */
     margin-bottom: 0px;
@@ -117,6 +129,7 @@ section {
 }
 
 aside { 
+    color: #fff;
     flex: 1; 
     background-color: rgba(240, 240, 240, 0.3); 
     padding: 20px;
@@ -214,7 +227,9 @@ h1{
 /*end table*/
 
 footer {
+    color: #fff;
     background-color: rgba(255,255,255,0.3);
     padding: 1px;
-    margin-top: 550px;
+    margin-top: 50px;
+    width: 1300px;
 }
