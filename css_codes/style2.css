@@ -1,3 +1,4 @@
+/*cities images*/
 .tallahassee-image {
     max-width: 900px; 
     height: auto; 
@@ -10,7 +11,50 @@
     max-width: 900px;
     height:auto
 }
-/* Ribbon Styling Cities */
+
+/*beach images*/
+.south-beach {
+  max-width: 900px;
+    height:auto
+}
+.siesta {
+  max-width: 800px;
+    height:auto
+}
+.clearwater {
+  max-width: 800px;
+    height:auto
+}
+
+/*state park images*/
+.myakka {
+  max-width: 800px;
+    height:auto
+}
+.dry-tortugas {
+  max-width: 800px;
+    height:auto
+}
+.everglades {
+  max-width: 800px;
+    height:auto
+}
+
+/*theme park images*/
+.magic-kingdom {
+  max-width: 800px;
+    height:auto
+}
+.universal {
+  max-width: 800px;
+    height:auto
+}
+.seaworld {
+  max-width: 800px;
+    height:auto
+}
+
+/* Ribbon Styling Cities, Theme Parks, State Parks, Beaches */
 .ribbon {
     position: relative;
     padding: 10px;
@@ -19,44 +63,39 @@
     color: #fff; 
     text-align: center;
   }
-  
   .ribbon:before,
   .ribbon:after {
     content: "";
     position: absolute;
     border: 15px solid transparent;
     bottom: -15px; 
-  }
-  
+  } 
   .ribbon:before {
     left: 0;
     border-left-color: rgb(115, 197, 177);
   }
-  
   .ribbon:after {
     right: 0;
     border-right-color: rgb(115, 197, 177);
   }
-  /* Form Styling*/
+
+  /* Contact Form Styling*/
   .contact-form {
-    background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+    background-color: rgba(255, 255, 255, 0.2);
     padding: 30px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    margin-top: 50px; /* Add some space above the form */
+    margin-top: 50px;
   }
-  
   .contact-form h2 {
     text-align: center;
     margin-bottom: 20px;
-  }
-  
+  }  
   .contact-form label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
-  }
-  
+  } 
   .contact-form input[type="text"],
   .contact-form input[type="email"],
   .contact-form textarea {
@@ -69,26 +108,25 @@
   }
   
   .contact-form textarea {
-    resize: vertical; /* Allow vertical resizing */
+    resize: vertical; 
   }
-  
   .contact-form button {
-    background-color: #25c481; /* Use the same gradient color as the background */
+    background-color: #25c481; 
     color: white;
     padding: 10px 20px;
     border: none;
     border-radius: 3px;
     cursor: pointer;
   }
-  
   .contact-form button:hover {
     background-color: #20b7c4; 
   }
+
   /* Footer Styling */
 footer {
     text-align: center; 
-    width: 1417px; /* Adjust width as needed */
-    margin: 0 auto; /* Center the footer horizontally */
+    width: 1417px; 
+    margin: 0 auto;
     background-color: rgba(255,255,255,0.3);
     padding: 1px;
     margin-top: 20px;
