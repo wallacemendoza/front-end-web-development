@@ -1,0 +1,48 @@
+.tallahassee-image {
+    max-width: 900px; 
+    height: auto; 
+}
+.miami-image {
+    max-width: 900px;
+    height: auto;
+}
+.orlando-image {
+    max-width: 900px;
+    height:auto
+}
+/* Ribbon Styling */
+.ribbon {
+    position: relative;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(115, 197, 177); 
+    color: #fff; 
+    text-align: center;
+  }
+  
+  .ribbon:before,
+  .ribbon:after {
+    content: "";
+    position: absolute;
+    border: 15px solid transparent;
+    bottom: -15px; 
+  }
+  
+  .ribbon:before {
+    left: 0;
+    border-left-color: rgb(115, 197, 177);
+  }
+  
+  .ribbon:after {
+    right: 0;
+    border-right-color: rgb(115, 197, 177);
+  }
+  /* Footer Styling */
+footer {
+    text-align: center; 
+    width: 1417px; /* Adjust width as needed */
+    margin: 0 auto; /* Center the footer horizontally */
+    background-color: rgba(255,255,255,0.3);
+    padding: 1px;
+    margin-top: 20px;
+}
