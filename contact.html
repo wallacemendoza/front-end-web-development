@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="../css_codes/style.css"> 
+    <link rel="stylesheet" href="../css_codes/style2.css"> 
+    <script src="email_alert.js" defer></script> </head> 
+
+<body>
+    <header>
+        <div class="image-container"> 
+             <img src="../images/index_images/florida_logo.webp" alt="Florida State Logo"> 
+        </div>
+        <h1>Contact Us</h1> 
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li>
+                <div class="dropdown">
+                    <button class="dropbtn">Cities <span class="arrow">&#9660;</span></button>
+                    <div class="dropdown-content">
+                        <a href="../cities/Orlando.html">Orlando</a>
+                        <a href="../cities/Miami.html">Miami</a>
+                        <a href="../cities/Tallahassee.html">Tallahassee</a>
+                    </div>
+                </div>
+            </li>              
+            <li><a href="Contact.html">Contact</a></li>
+            <li>
+                <div class="dropdown">
+                    <button class="dropbtn">More About Florida <span class="arrow">&#9660;</span></button>
+                    <div class="dropdown-content">
+                        <a href="../Beaches.html">Beaches</a>
+                        <a href="../State_Parks.html">State Parks</a>
+                        <a href="../Theme_Parks.html">Theme Parks</a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="contact-form"> 
+        <h2>Have a question? We are here to help!</h2>
+        <h5>We're excited to hear from you! Your message is important to us. 
+            Please allow us some time to review your request. We'll do our best
+            to get back to you as soon as possible. In the meantime, feel free to
+            browse our webpage for more information.</h5>
+        <form id="contactForm">
+            <div>
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required placeholder="Ex: Paul">
+            </div>
+            <div>
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required placeholder="Ex: Williams">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="Ex: paul_williams@gmail.com">
+            </div>
+            <div>
+                <label for="confirmEmail">Confirm Email:</label>
+                <input type="email" id="confirmEmail" name="confirmEmail" required placeholder="Ex: paul_williams@gmail.com">
+            </div>
+            <div>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    
+
+    <footer>
+        <p>&copy; 2025 Welcome to the Sunshine State. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

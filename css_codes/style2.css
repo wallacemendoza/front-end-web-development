@@ -10,7 +10,7 @@
     max-width: 900px;
     height:auto
 }
-/* Ribbon Styling */
+/* Ribbon Styling Cities */
 .ribbon {
     position: relative;
     padding: 10px;
@@ -36,6 +36,53 @@
   .ribbon:after {
     right: 0;
     border-right-color: rgb(115, 197, 177);
+  }
+  /* Form Styling*/
+  .contact-form {
+    background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 50px; /* Add some space above the form */
+  }
+  
+  .contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #250707;
+    border-radius: 3px;
+    background-color:rgba(255, 255, 255, 0.2) ;
+  }
+  
+  .contact-form textarea {
+    resize: vertical; /* Allow vertical resizing */
+  }
+  
+  .contact-form button {
+    background-color: #25c481; /* Use the same gradient color as the background */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #20b7c4; 
   }
   /* Footer Styling */
 footer {

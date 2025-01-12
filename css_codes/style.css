@@ -156,8 +156,33 @@ h2 {
     background: linear-gradient(to right, #25c481, #25b7c4);
     padding: 30px;
 }
-
-
+/* Ribbon Styling Index */
+.ribbon {
+    position: relative;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(115, 197, 177); 
+    color: #fff; 
+    text-align: center;
+  }
+  
+  .ribbon:before,
+  .ribbon:after {
+    content: "";
+    position: absolute;
+    border: 15px solid transparent;
+    bottom: -15px; 
+  }
+  
+  .ribbon:before {
+    left: 0;
+    border-left-color: rgb(115, 197, 177);
+  }
+  
+  .ribbon:after {
+    right: 0;
+    border-right-color: rgb(115, 197, 177);
+  }
 
 /*start table*/
 h1{
