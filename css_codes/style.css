@@ -4,6 +4,7 @@ body {
     background: linear-gradient(to right, #25c481, #25b7c4);
     font-family: 'Roboto', sans-serif;
     margin-left: 30px;
+    margin-bottom: 70px;
   }
 
 header {
@@ -31,6 +32,24 @@ nav a:hover {
     color:black; 
 }
 
+/*relative element*/
+.container {
+    position: relative;
+    width: 900px;
+    height: 300px;
+    border: 1px solid #ccc;
+  }
+  
+  .relative-positioned-element {
+    position: relative;
+    top: 0px;
+    left: 37px;
+    background-color: rgba(240, 240, 240, 0.15);;
+    color: white;
+    padding: 5px;
+    border-radius: 0px;
+  }
+
 /*Index Head*/
 .image-container {
     display: flex;
@@ -48,6 +67,29 @@ nav a:hover {
 .centered-title {
     text-align: center;
 }
+
+.image-container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .image-container2 img{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 0%;
+    margin-bottom: 20px;
+  }
+  
+  .image-container2 p {
+    width: 100%;
+    max-width: 100%;
+    text-align: left;
+    padding: 0 20px;
+    
+  }
 
 
 /* Index Dropdown*/
@@ -93,50 +135,34 @@ nav a:hover {
 }
 
 /*Index Body*/
+
 .visit_our_state {
-    display: flex; 
-    justify-content:left; 
-    align-items: flex-start;
-    background-color: rgba(255, 255, 255, 0.2); 
-    color: white;
-    font-weight: 100;
-    padding: 50px;
-    margin-top: 5px;
-    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
 }
 
 section {
+    color: white;
     flex: 1;
-    background: -webkit-linear-gradient(left, #25c481, #25b7c4);
-    background: linear-gradient(to right, #25c481, #25b7c4);
+    background-color: rgba(240, 240, 240, 0.15);
     padding: 20px;
-    border-radius: 5px;
-    text-align: left; 
-    max-width: 900px; 
-    margin: 0 auto; 
-    float:left;
+    border-radius: 0px;
+    text-align: left;
+    float:left
 }
 
-aside { 
-    color: white;
-    flex: 1; 
-    background-color: rgba(240, 240, 240, 0.3); 
+.fun-facts {
+    color:white;
+    width: 270px;
+    background-color: rgba(240, 240, 240, 0.15);
     padding: 20px;
-    border-radius: 5px;
-    max-width: 270px;
-    float: right; 
     margin-left: 50px;
+    float: right;
 }
 
 h2 {
     text-align: center;
   }
-
-.fun-facts {
-    background: -webkit-linear-gradient(left, #25c481, #25b7c4);
-    background: linear-gradient(to right, #25c481, #25b7c4);
-    padding: 30px;
-}
 
 /* Ribbon Styling Index */
 .ribbon {
@@ -172,9 +198,12 @@ h1{
     text-align: center;
     margin-bottom: 18px;
   }
-  table{
-    width:100%;
+  table {
+    width: 100%; /* Make the table take full width */
     table-layout: fixed;
+    border-collapse: collapse;
+    margin: auto;
+    overflow-x: auto;
   }
   .tbl-header{
     background-color: rgba(255,255,255,0.3);
@@ -183,6 +212,7 @@ h1{
     height:305px;
     overflow-x:auto;
     margin-top: 0px;
+    margin-bottom: 10px;
     border: 1px solid rgba(255,255,255,0.3);
   }
   th{
@@ -218,7 +248,7 @@ h1{
     margin-left: 20px;
 }
 .table-container {
-    width: 1300px; 
+    width: 95%; 
     margin: 0 auto; 
     background-color: inherit;
     padding: 20px;
@@ -233,12 +263,23 @@ h1{
   ::-webkit-scrollbar-thumb {
       -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
   }
+  
 
 /*Index Footer*/
 footer {
     color: white;
-    background-color: rgba(255,255,255,0.3);
-    padding: 1px;
-    margin-top: 50px;
-    width: 1300px;
+    width: 100%; 
+    text-align: center; 
+    padding: 10px; 
+    box-sizing: border-box; 
+}
+
+
+.footer-container {
+    background-color: rgba(0,0,0,0.3);
+    position:fixed; 
+    bottom: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 55px;
 }

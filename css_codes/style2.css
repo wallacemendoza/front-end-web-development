@@ -1,57 +1,93 @@
 /*cities images*/
 .tallahassee-image {
-    max-width: 900px; 
-    height: auto; 
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 0%;
+  margin-bottom: 20px;
 }
 .miami-image {
-    max-width: 900px;
-    height: auto;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 0%;
+  margin-bottom: 20px;
 }
 .orlando-image {
-    max-width: 900px;
-    height:auto
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 0%;
+  margin-bottom: 20px;
 }
 
 /*beach images*/
 .south-beach {
-  max-width: 900px;
-    height:auto
+  width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 0%;
+    margin-bottom: 20px;
 }
 .siesta {
-  max-width: 800px;
-    height:auto
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 0%;
+  margin-bottom: 20px;
 }
 .clearwater {
-  max-width: 800px;
-    height:auto
+  width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 0%;
+    margin-bottom: 20px;
 }
 
 /*state park images*/
 .myakka {
-  max-width: 800px;
-    height:auto
+  width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 0%;
+    margin-bottom: 20px;
 }
 .dry-tortugas {
-  max-width: 800px;
-    height:auto
+  width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 0%;
+    margin-bottom: 20px;
 }
 .everglades {
-  max-width: 800px;
-    height:auto
+  width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 0%;
+    margin-bottom: 20px;
 }
 
 /*theme park images*/
 .magic-kingdom {
-  max-width: 800px;
-    height:auto
+  width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 0%;
+    margin-bottom: 20px;
 }
 .universal {
-  max-width: 800px;
-    height:auto
+  width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 0%;
+    margin-bottom: 20px;
 }
 .seaworld {
-  max-width: 800px;
-    height:auto
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 0%;
+  margin-bottom: 20px;
 }
 
 /* Ribbon Styling Cities, Theme Parks, State Parks, Beaches */
@@ -63,6 +99,7 @@
     color: white; 
     text-align: center;
   }
+  
   .ribbon:before,
   .ribbon:after {
     content: "";
@@ -123,11 +160,20 @@
   }
 
   /* Footer Styling */
-footer {
+  footer {
+    color: white;
+    width: 100%; 
     text-align: center; 
-    width: 1417px; 
-    margin: 0 auto;
-    background-color: rgba(255,255,255,0.3);
-    padding: 1px;
-    margin-top: 20px;
+    padding: 10px; 
+    box-sizing: border-box; 
+}
+
+
+.footer-container {
+    background-color: rgba(0,0,0,0.3);
+    position:fixed; 
+    bottom: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 55px;
 }
