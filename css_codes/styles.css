@@ -163,6 +163,8 @@ img {
     object-fit: cover;
     border-radius: 50%;
     border: 2px solid var(--primary-color);
+    background: var(--white);
+    padding: 2px;
 }
 
 .logo-text {
@@ -738,7 +740,9 @@ section {
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    border: 3px solid rgba(255, 255, 255, 0.3);
+    border: 3px solid rgba(255, 140, 0, 0.5);
+    background: var(--white);
+    padding: 4px;
 }
 
 .footer-tagline {
