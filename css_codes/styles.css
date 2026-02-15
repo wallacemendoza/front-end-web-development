@@ -1,4 +1,7 @@
-
+/* ===================================
+   MODERN FLORIDA WEBSITE STYLES
+   Professional & Sophisticated Design
+   =================================== */
 
 /* CSS Variables */
 :root {
@@ -157,7 +160,9 @@ img {
 .logo-image {
     width: 50px;
     height: 50px;
-    object-fit: contain;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid var(--primary-color);
 }
 
 .logo-text {
@@ -732,6 +737,8 @@ section {
 .footer-logo {
     width: 80px;
     height: 80px;
+    border-radius: 50%;
+    border: 3px solid rgba(255, 255, 255, 0.3);
 }
 
 .footer-tagline {
