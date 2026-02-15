@@ -1,195 +1,368 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Sunshine State</title>
-    <link rel="stylesheet" href="./css_codes/style.css"> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Sunshine State | Discover Florida</title>
+    <link rel="stylesheet" href="./css_codes/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
-  <header>
-        <div class="image-container"> 
-             <img src="./images/index_images/florida_logo.webp" alt="Florida State Logo" style="border-radius: 60%;"> 
-        </div>
-      <h1 class="centered-title">Welcome to the Sunshine State</h1> 
-  </header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li>
-                    <div class="dropdown">
-                        <button class="dropbtn">Cities 
-                            <span class="arrow">&#9660;</span> 
-                        </button>
-                        <div class="dropdown-content">
-                            <a href="./cities/Orlando.html">Orlando</a>
-                            <a href="./cities/Miami.html">Miami</a>
-                            <a href="./cities/Tallahassee.html">Tallahassee</a>
-                        </div>
-                    </div>
-                </li>              
-                <li><a href="contact.html">Contact</a></li>
-                <li>
-                    <div class="dropdown">
-                        <button class="dropbtn">More About Florida 
-                            <span class="arrow">&#9660;</span> 
-                        </button>
-                        <div class="dropdown-content">
-                            <a href="./More About Florida/Beaches.html">Beaches</a>
-                            <a href="./More About Florida/State_parks.html">State Parks</a>
-                            <a href="./More About Florida/Theme_parks.html">Theme Parks</a>
-                        </div>
-                    </div>
+    <!-- Navigation -->
+    <nav class="nav-container">
+        <div class="nav-content">
+            <div class="nav-logo">
+                <img src="./images/index_images/florida_logo.webp" alt="Florida State Logo" class="logo-image">
+                <span class="logo-text">Florida</span>
+            </div>
+            
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li class="nav-dropdown">
+                    <a href="#" class="nav-link">Cities <span class="dropdown-arrow">▼</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="./cities/Orlando.html">Orlando</a></li>
+                        <li><a href="./cities/Miami.html">Miami</a></li>
+                        <li><a href="./cities/Tallahassee.html">Tallahassee</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+                <li class="nav-dropdown">
+                    <a href="#" class="nav-link">Discover <span class="dropdown-arrow">▼</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="./More About Florida/Beaches.html">Beaches</a></li>
+                        <li><a href="./More About Florida/State_parks.html">State Parks</a></li>
+                        <li><a href="./More About Florida/Theme_parks.html">Theme Parks</a></li>
+                    </ul>
                 </li>
             </ul>
-        </nav>
-
-        <div class="visit_our_state">
-          <section>
-            <div class="ribbon">
-              <h2>Visit our State, Florida!</h2>
-            </div>
-            <div class="image-container2">
-              <img src="./images/index_images/florida_flag2.jpg" alt="Florida Flag">
-              <span class="divide"></span>
-              <p>Florida, the Sunshine State, is a truly special place where you can find something for everyone. Imagine yourself soaking up the sun on beautiful white sand beaches, like those in <a href="./cities/Miami.html">Miami</a> or the Florida Keys. Or maybe you dream of thrilling rides at world-famous theme parks in <a href="./cities/Orlando.html">Orlando</a>, like Disney World and Universal Studios.</p>
-              <p>Perhaps you're more interested in exploring the amazing natural wonders of Florida, like the Everglades, where you can see alligators and other unique wildlife. You can also experience the vibrant culture of the capital city <a href="./cities/Tallahassee.html">Tallahassee</a>, with a blend of culture, history and southern charm.</p>
-              <p>No matter what your interests are, Florida has something to offer.</p>
-            </div>
-          </section>
-          <div class="relative-positioned-element">
-            <h3>The Sunshine State</h3>
-            <p>Florida, the Sunshine State, is a vibrant peninsula <br>renowned for its diverse landscapes<br> and vibrant culture.<br> From the sparkling coasts to the vast wetlands, <br>the state offers a unique blend of natural beauty <br>and exciting attractions. <br>Known worldwide for its theme parks, <br>Florida draws millions of visitors each year<br> seeking thrilling adventures and family-friendly <br>entertainment.   
-
-              Beyond the popular tourist destinations,<br> Florida boasts a rich <br>natural environment. The Everglades, a unique wetland<br> ecosystem, provides a crucial habitat for a <br>diverse array of wildlife.<br> The state's coastline is dotted with stunning <br>beaches, offering opportunities for swimming, surfing,<br> and sunbathing. <br>Florida's diverse ecosystems also support<br> a thriving outdoor recreation industry, <br>with opportunities for fishing, boating, hiking,<br> and camping.   
-              
-              Florida's cultural tapestry reflects its<br> diverse population. <br>The state's history is interwoven with Native American<br> cultures, Spanish colonial rule, and the impact <br>of early settlers. This rich cultural heritage<br> is reflected in the state's art, music,<br> and cuisine, offering visitors a taste of <br>the Sunshine State's unique character.</p>
-          </div>
-          <aside class="fun-facts">
-            <div class="ribbon">
-              <h3>Fun Facts About Florida</h3>
-            </div>
-            <ul>
-              <li>Nickname: Sunshine State</li>
-              <li>Capital: Tallahassee</li>
-              <li>Population: 23,372,215</li>
-              <li>Year Founded: 1845</li>
-              <li>State Bird: Mockingbird</li>
-              <li>State Flower: Orange Blossom</li>
-              <li>Governor: Ron DeSantis (Republican)</li>
-              <li>State Moto: "In God We Trust"</li>
-              <li>State Song: "Swanee River"</li>
-              <li>Total Area (Sq Mi): 65,757</li>
-              <li>State Average Income: 64,170 USD per year</li>
-            </ul>
-          </aside>
         </div>
-      </div>
-    
+    </nav>
 
-    <!--start table-->
-    
-      <div class="table-container">
-        <h1>Top 10 Places to Live in Florida</h1>
-        <div class="tbl-header">
-          <table cellpadding="0" cellspacing="0">
-            <thead>
-              <tr>
-                <th>City</th>
-                <th>Avg. home price</th>
-                <th>Avg. age</th>
-                <th>Avg. Income</th>
-                <th>Population</th>
-              </tr>
-            </thead>
-          </table>
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-background"></div>
+        <div class="hero-content">
+            <div class="hero-badge">Welcome to</div>
+            <h1 class="hero-title">
+                The Sunshine
+                <span class="hero-title-highlight">State</span>
+            </h1>
+            <p class="hero-subtitle">Where endless summers meet unforgettable adventures</p>
+            <div class="hero-cta">
+                <a href="#explore" class="btn btn-primary">Explore Florida</a>
+                <a href="contact.html" class="btn btn-secondary">Plan Your Visit</a>
+            </div>
         </div>
-        <div class="tbl-content">
-          <table cellpadding="0" cellspacing="0">
-            <tbody>
-              <tr>
-                <td>SARASOTA</td>
-                <td>444K USD </td>
-                <td>48.9</td>
-                <td>45,013 USD per year</td>
-                <td>58,406</td>
-              </tr>
-              <tr>
-                <td>NAPLES</td>
-                <td>578K USD</td>
-                <td>65.4</td>
-                <td>46,255 USD per year</td>
-                <td>19,704</td>
-              </tr>
-              <tr>
-                <td>PENSACOLA</td>
-                <td>258K USD</td>
-                <td>36.8</td>
-                <td>49,670 USD per year</td>
-                <td>53,473</td>
-              </tr>
-              <tr>
-                <td>TAMPA</td>
-                <td>376K USD</td>
-                <td>35.9</td>
-                <td>54,288 USD per year</td>
-                <td>408,510</td>
-              </tr>
-              <tr>
-                <td>FORT MYERS</td>
-                <td>347K USD </td>
-                <td>40.6</td>
-                <td>78,385 USD per year</td>
-                <td>100,736</td>
-              </tr>
-              <tr>
-                <td>MELBOURNE</td>
-                <td>364K USD</td>
-                <td>41.4</td>
-                <td>54,639 USD per year</td>
-                <td>86,960</td>
-              </tr>
-              <tr>
-                <td>JACKSONVILLE</td>
-                <td>291K USD</td>
-                <td>35.9</td>
-                <td>70,849 USD per year</td>
-                <td>997,164</td>
-              </tr>
-              <tr>
-                <td>ORLANDO</td>
-                <td>380K USD</td>
-                <td>33.9</td>
-                <td>54,518 USD per year</td>
-                <td>325,044</td>
-              </tr>
-              <tr>
-                <td>TALLAHASSEE</td>
-                <td>284K USD</td>
-                <td>27.2</td>
-                <td>46,654 USD per year</td>
-                <td>203,650</td>
-              </tr>
-              <tr>
-                <td>OCALA</td>
-                <td>273K USD</td>
-                <td>37.3</td>
-                <td>50,445 USD per year</td>
-                <td>69,965</td>
-              </tr>
-              
-            </tbody>
-          </table>
+        <div class="hero-scroll">
+            <span>Scroll to discover</span>
+            <div class="scroll-indicator"></div>
         </div>
-    
-    <!--end table-->
-  
-    <div class="footer-container">
-      <footer>
-          <p>&copy; 2025 Welcome to the Sunshine State. All Rights Reserved.</p>
-      </footer>
-  </div>
+    </header>
 
+    <!-- Main Content -->
+    <main>
+        <!-- Introduction Section -->
+        <section class="intro-section" id="explore">
+            <div class="container">
+                <div class="intro-grid">
+                    <div class="intro-image">
+                        <img src="./images/index_images/florida_flag2.jpg" alt="Florida Flag" loading="lazy">
+                        <div class="image-overlay"></div>
+                    </div>
+                    <div class="intro-content">
+                        <div class="section-label">About Florida</div>
+                        <h2 class="section-title">Your Perfect Destination Awaits</h2>
+                        <p class="intro-text">
+                            Florida, the Sunshine State, is a truly special place where you can find something for everyone. 
+                            Imagine yourself soaking up the sun on beautiful white sand beaches, like those in 
+                            <a href="./cities/Miami.html" class="inline-link">Miami</a> or the Florida Keys.
+                        </p>
+                        <p class="intro-text">
+                            Or maybe you dream of thrilling rides at world-famous theme parks in 
+                            <a href="./cities/Orlando.html" class="inline-link">Orlando</a>, like Disney World and Universal Studios. 
+                            Perhaps you're more interested in exploring the amazing natural wonders of Florida, like the Everglades, 
+                            where you can see alligators and other unique wildlife.
+                        </p>
+                        <p class="intro-text">
+                            You can also experience the vibrant culture of the capital city 
+                            <a href="./cities/Tallahassee.html" class="inline-link">Tallahassee</a>, 
+                            with a blend of culture, history and southern charm. No matter what your interests are, 
+                            Florida has something to offer.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features-section">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-label">Why Florida</div>
+                    <h2 class="section-title">A State Like No Other</h2>
+                </div>
+                
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🏖️</div>
+                        <h3 class="feature-title">Pristine Beaches</h3>
+                        <p class="feature-description">
+                            From the sparkling coasts to crystal-clear waters, Florida offers some of the world's 
+                            most beautiful beaches for swimming, surfing, and sunbathing.
+                        </p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">🎢</div>
+                        <h3 class="feature-title">World-Class Theme Parks</h3>
+                        <p class="feature-description">
+                            Home to Disney World, Universal Studios, and more. Florida draws millions seeking 
+                            thrilling adventures and family-friendly entertainment.
+                        </p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">🌿</div>
+                        <h3 class="feature-title">Natural Wonders</h3>
+                        <p class="feature-description">
+                            The Everglades provides a crucial habitat for diverse wildlife. Explore unique wetland 
+                            ecosystems and encounter amazing native species.
+                        </p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">🎨</div>
+                        <h3 class="feature-title">Rich Culture</h3>
+                        <p class="feature-description">
+                            Florida's cultural tapestry reflects Native American cultures, Spanish colonial rule, 
+                            and diverse settlers creating unique art, music, and cuisine.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Fun Facts Section -->
+        <section class="facts-section">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-label">Quick Facts</div>
+                    <h2 class="section-title">Fun Facts About Florida</h2>
+                </div>
+                
+                <div class="facts-grid">
+                    <div class="fact-item">
+                        <div class="fact-label">Nickname</div>
+                        <div class="fact-value">Sunshine State</div>
+                    </div>
+                    <div class="fact-item">
+                        <div class="fact-label">Capital</div>
+                        <div class="fact-value">Tallahassee</div>
+                    </div>
+                    <div class="fact-item">
+                        <div class="fact-label">Population</div>
+                        <div class="fact-value">23.3M</div>
+                    </div>
+                    <div class="fact-item">
+                        <div class="fact-label">Year Founded</div>
+                        <div class="fact-value">1845</div>
+                    </div>
+                    <div class="fact-item">
+                        <div class="fact-label">State Bird</div>
+                        <div class="fact-value">Mockingbird</div>
+                    </div>
+                    <div class="fact-item">
+                        <div class="fact-label">State Flower</div>
+                        <div class="fact-value">Orange Blossom</div>
+                    </div>
+                    <div class="fact-item">
+                        <div class="fact-label">Governor</div>
+                        <div class="fact-value">Ron DeSantis</div>
+                    </div>
+                    <div class="fact-item">
+                        <div class="fact-label">State Motto</div>
+                        <div class="fact-value">"In God We Trust"</div>
+                    </div>
+                    <div class="fact-item">
+                        <div class="fact-label">State Song</div>
+                        <div class="fact-value">"Swanee River"</div>
+                    </div>
+                    <div class="fact-item">
+                        <div class="fact-label">Total Area</div>
+                        <div class="fact-value">65,757 sq mi</div>
+                    </div>
+                    <div class="fact-item">
+                        <div class="fact-label">Average Income</div>
+                        <div class="fact-value">$64,170/year</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Top Cities Section -->
+        <section class="cities-section">
+            <div class="container-wide">
+                <div class="section-header">
+                    <div class="section-label">Best Places</div>
+                    <h2 class="section-title">Top 10 Places to Live in Florida</h2>
+                    <p class="section-subtitle">Discover the most desirable cities across the Sunshine State</p>
+                </div>
+                
+                <div class="table-wrapper">
+                    <table class="cities-table">
+                        <thead>
+                            <tr>
+                                <th>Rank</th>
+                                <th>City</th>
+                                <th>Avg. Home Price</th>
+                                <th>Avg. Age</th>
+                                <th>Avg. Income</th>
+                                <th>Population</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><span class="rank-badge">1</span></td>
+                                <td class="city-name">Sarasota</td>
+                                <td>$444K</td>
+                                <td>48.9</td>
+                                <td>$45,013/yr</td>
+                                <td>58,406</td>
+                            </tr>
+                            <tr>
+                                <td><span class="rank-badge">2</span></td>
+                                <td class="city-name">Naples</td>
+                                <td>$578K</td>
+                                <td>65.4</td>
+                                <td>$46,255/yr</td>
+                                <td>19,704</td>
+                            </tr>
+                            <tr>
+                                <td><span class="rank-badge">3</span></td>
+                                <td class="city-name">Pensacola</td>
+                                <td>$258K</td>
+                                <td>36.8</td>
+                                <td>$49,670/yr</td>
+                                <td>53,473</td>
+                            </tr>
+                            <tr>
+                                <td><span class="rank-badge">4</span></td>
+                                <td class="city-name">Tampa</td>
+                                <td>$376K</td>
+                                <td>35.9</td>
+                                <td>$54,288/yr</td>
+                                <td>408,510</td>
+                            </tr>
+                            <tr>
+                                <td><span class="rank-badge">5</span></td>
+                                <td class="city-name">Fort Myers</td>
+                                <td>$347K</td>
+                                <td>40.6</td>
+                                <td>$78,385/yr</td>
+                                <td>100,736</td>
+                            </tr>
+                            <tr>
+                                <td><span class="rank-badge">6</span></td>
+                                <td class="city-name">Melbourne</td>
+                                <td>$364K</td>
+                                <td>41.4</td>
+                                <td>$54,639/yr</td>
+                                <td>86,960</td>
+                            </tr>
+                            <tr>
+                                <td><span class="rank-badge">7</span></td>
+                                <td class="city-name">Jacksonville</td>
+                                <td>$291K</td>
+                                <td>35.9</td>
+                                <td>$70,849/yr</td>
+                                <td>997,164</td>
+                            </tr>
+                            <tr>
+                                <td><span class="rank-badge">8</span></td>
+                                <td class="city-name">Orlando</td>
+                                <td>$380K</td>
+                                <td>33.9</td>
+                                <td>$54,518/yr</td>
+                                <td>325,044</td>
+                            </tr>
+                            <tr>
+                                <td><span class="rank-badge">9</span></td>
+                                <td class="city-name">Tallahassee</td>
+                                <td>$284K</td>
+                                <td>27.2</td>
+                                <td>$46,654/yr</td>
+                                <td>203,650</td>
+                            </tr>
+                            <tr>
+                                <td><span class="rank-badge">10</span></td>
+                                <td class="city-name">Ocala</td>
+                                <td>$273K</td>
+                                <td>37.3</td>
+                                <td>$50,445/yr</td>
+                                <td>69,965</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-content">
+                    <h2 class="cta-title">Ready to Experience Florida?</h2>
+                    <p class="cta-subtitle">Start planning your perfect sunshine state adventure today</p>
+                    <a href="contact.html" class="btn btn-light">Get in Touch</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="./images/index_images/florida_logo.webp" alt="Florida" class="footer-logo">
+                    <p class="footer-tagline">Discover the Sunshine State</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Explore</h4>
+                        <a href="./cities/Orlando.html">Orlando</a>
+                        <a href="./cities/Miami.html">Miami</a>
+                        <a href="./cities/Tallahassee.html">Tallahassee</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Discover</h4>
+                        <a href="./More About Florida/Beaches.html">Beaches</a>
+                        <a href="./More About Florida/State_parks.html">State Parks</a>
+                        <a href="./More About Florida/Theme_parks.html">Theme Parks</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Connect</h4>
+                        <a href="contact.html">Contact Us</a>
+                        <a href="index.html">Home</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Welcome to the Sunshine State. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./email_alert.js"></script>
+    <script src="./css_codes/main.js"></script>
 </body>
 </html>
