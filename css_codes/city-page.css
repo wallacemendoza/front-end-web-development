@@ -1,0 +1,221 @@
+/* ===================================
+   CITY PAGES STYLES
+   =================================== */
+
+/* City Hero */
+.city-hero {
+    position: relative;
+    padding: 10rem 0 6rem;
+    margin-top: 70px;
+    overflow: hidden;
+}
+
+.city-hero-background {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, 
+        rgba(0, 102, 204, 0.92) 0%, 
+        rgba(255, 140, 0, 0.88) 100%);
+    z-index: -1;
+}
+
+.city-hero-content {
+    text-align: center;
+    animation: fadeInUp 0.8s ease-out;
+}
+
+.city-hero-title {
+    font-size: clamp(3.5rem, 8vw, 6rem);
+    color: var(--white);
+    margin-bottom: var(--spacing-md);
+    font-weight: 900;
+}
+
+.city-hero-subtitle {
+    font-size: clamp(1.25rem, 2.5vw, 1.75rem);
+    color: rgba(255, 255, 255, 0.95);
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* City Overview */
+.city-overview {
+    padding: var(--spacing-3xl) 0;
+    background: var(--white);
+}
+
+.overview-grid {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: var(--spacing-2xl);
+    align-items: start;
+}
+
+.overview-text {
+    font-size: 1.125rem;
+    line-height: 1.9;
+    color: var(--dark-gray);
+    margin-bottom: var(--spacing-md);
+}
+
+.overview-stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-md);
+}
+
+.stat-card {
+    background: var(--light-gray);
+    padding: var(--spacing-lg);
+    border-radius: var(--radius-lg);
+    text-align: center;
+    border-left: 4px solid var(--primary-color);
+    transition: all var(--transition-base);
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+}
+
+.stat-number {
+    font-size: 2rem;
+    font-weight: 900;
+    font-family: var(--font-display);
+    color: var(--primary-color);
+    margin-bottom: var(--spacing-xs);
+}
+
+.stat-label {
+    font-size: 0.9375rem;
+    color: var(--dark-gray);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+}
+
+/* Attractions Section */
+.city-attractions {
+    padding: var(--spacing-3xl) 0;
+    background: var(--light-gray);
+}
+
+.attractions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: var(--spacing-xl);
+}
+
+.attraction-card {
+    background: var(--white);
+    padding: var(--spacing-xl);
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-md);
+    transition: all var(--transition-base);
+    border-top: 4px solid transparent;
+}
+
+.attraction-card:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-xl);
+    border-top-color: var(--primary-color);
+}
+
+.attraction-icon {
+    font-size: 3.5rem;
+    margin-bottom: var(--spacing-md);
+    display: block;
+}
+
+.attraction-title {
+    font-size: 1.5rem;
+    margin-bottom: var(--spacing-sm);
+    color: var(--black);
+}
+
+.attraction-description {
+    color: var(--dark-gray);
+    line-height: 1.8;
+    margin: 0;
+}
+
+/* City Highlights */
+.city-highlights {
+    padding: var(--spacing-3xl) 0;
+    background: var(--white);
+}
+
+.highlights-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-xl);
+}
+
+.highlight-item {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    gap: var(--spacing-xl);
+    padding: var(--spacing-xl);
+    background: var(--light-gray);
+    border-radius: var(--radius-lg);
+    transition: all var(--transition-base);
+}
+
+.highlight-item:hover {
+    background: var(--white);
+    box-shadow: var(--shadow-lg);
+    transform: translateX(10px);
+}
+
+.highlight-number {
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: var(--font-display);
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    line-height: 1;
+}
+
+.highlight-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: var(--spacing-sm);
+    color: var(--black);
+}
+
+.highlight-content p {
+    color: var(--dark-gray);
+    line-height: 1.8;
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .overview-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .overview-stats {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .attractions-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .highlight-item {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-md);
+    }
+    
+    .highlight-number {
+        font-size: 2.5rem;
+    }
+    
+    .overview-stats {
+        grid-template-columns: 1fr;
+    }
+}
