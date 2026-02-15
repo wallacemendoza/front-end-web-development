@@ -1,0 +1,256 @@
+/* ===================================
+   DISCOVER PAGES STYLES
+   (Beaches, State Parks, Theme Parks)
+   =================================== */
+
+/* Discover Hero */
+.discover-hero {
+    position: relative;
+    padding: 10rem 0 6rem;
+    margin-top: 70px;
+    overflow: hidden;
+}
+
+.discover-hero-background {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, 
+        rgba(255, 140, 0, 0.92) 0%, 
+        rgba(0, 102, 204, 0.88) 100%);
+    z-index: -1;
+}
+
+.discover-hero-content {
+    text-align: center;
+    animation: fadeInUp 0.8s ease-out;
+}
+
+.discover-hero-title {
+    font-size: clamp(3.5rem, 8vw, 6rem);
+    color: var(--white);
+    margin-bottom: var(--spacing-md);
+    font-weight: 900;
+}
+
+.discover-hero-subtitle {
+    font-size: clamp(1.25rem, 2.5vw, 1.75rem);
+    color: rgba(255, 255, 255, 0.95);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Introduction Section */
+.discover-intro {
+    padding: var(--spacing-3xl) 0;
+    background: var(--white);
+}
+
+.intro-content-center {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.intro-text-large {
+    font-size: 1.25rem;
+    line-height: 1.9;
+    color: var(--dark-gray);
+    margin-bottom: var(--spacing-lg);
+}
+
+/* Featured Section */
+.featured-section {
+    padding: var(--spacing-3xl) 0;
+    background: var(--light-gray);
+}
+
+.featured-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: var(--spacing-xl);
+}
+
+.featured-card {
+    background: var(--white);
+    padding: var(--spacing-xl);
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-md);
+    transition: all var(--transition-base);
+    border-top: 4px solid transparent;
+}
+
+.featured-card:hover {
+    transform: translateY(-10px);
+    box-shadow: var(--shadow-xl);
+    border-top-color: var(--primary-color);
+}
+
+.featured-icon {
+    font-size: 3.5rem;
+    margin-bottom: var(--spacing-md);
+    display: block;
+}
+
+.featured-title {
+    font-size: 1.75rem;
+    margin-bottom: var(--spacing-xs);
+    color: var(--black);
+}
+
+.featured-location {
+    color: var(--primary-color);
+    font-weight: 600;
+    margin-bottom: var(--spacing-md);
+    font-size: 1rem;
+}
+
+.featured-description {
+    color: var(--dark-gray);
+    line-height: 1.8;
+    margin-bottom: var(--spacing-md);
+}
+
+.featured-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-xs);
+}
+
+.tag {
+    display: inline-block;
+    padding: 0.375rem 0.75rem;
+    background: var(--light-gray);
+    color: var(--dark-gray);
+    border-radius: var(--radius-full);
+    font-size: 0.8125rem;
+    font-weight: 500;
+}
+
+/* Activities Section */
+.activities-section {
+    padding: var(--spacing-3xl) 0;
+    background: var(--white);
+}
+
+.activities-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: var(--spacing-lg);
+}
+
+.activity-item {
+    text-align: center;
+    padding: var(--spacing-xl);
+    background: var(--light-gray);
+    border-radius: var(--radius-lg);
+    transition: all var(--transition-base);
+}
+
+.activity-item:hover {
+    background: var(--white);
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-5px);
+}
+
+.activity-icon {
+    font-size: 3rem;
+    margin-bottom: var(--spacing-md);
+}
+
+.activity-item h3 {
+    font-size: 1.25rem;
+    margin-bottom: var(--spacing-sm);
+    color: var(--black);
+}
+
+.activity-item p {
+    color: var(--dark-gray);
+    line-height: 1.7;
+    margin: 0;
+}
+
+/* Tips Section */
+.tips-section {
+    padding: var(--spacing-3xl) 0;
+    background: var(--light-gray);
+}
+
+.tips-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--spacing-xl);
+}
+
+.tip-card {
+    background: var(--white);
+    padding: var(--spacing-xl);
+    border-radius: var(--radius-lg);
+    border-left: 4px solid var(--secondary-color);
+    transition: all var(--transition-base);
+}
+
+.tip-card:hover {
+    transform: translateX(8px);
+    box-shadow: var(--shadow-lg);
+}
+
+.tip-card h3 {
+    font-size: 1.375rem;
+    margin-bottom: var(--spacing-md);
+    color: var(--black);
+}
+
+.tip-card p {
+    color: var(--dark-gray);
+    line-height: 1.8;
+    margin: 0;
+}
+
+/* Parks Specific Styles */
+.park-info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: var(--spacing-lg);
+    margin-top: var(--spacing-xl);
+}
+
+.info-box {
+    background: rgba(0, 102, 204, 0.1);
+    padding: var(--spacing-lg);
+    border-radius: var(--radius-lg);
+    text-align: center;
+}
+
+.info-box h4 {
+    color: var(--secondary-color);
+    margin-bottom: var(--spacing-sm);
+    font-size: 0.9375rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.info-box p {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--black);
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .featured-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .activities-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .tips-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .park-info-grid {
+        grid-template-columns: 1fr;
+    }
+}
